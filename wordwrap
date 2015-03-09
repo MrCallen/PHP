@@ -1,0 +1,10 @@
+<?php
+  $text = "The quick brown fox jumped over the lazy dog.";
+  $newtext = wordwrap($text, 20, "<br />\n");
+
+  echo $newtext;
+  /*o resultado em html seria o seguinte:
+   *The quick brown fox<br />
+   *jumped over the lazy<br />
+   *dog.*/
+?>
